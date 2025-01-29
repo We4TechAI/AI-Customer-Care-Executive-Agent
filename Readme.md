@@ -26,7 +26,7 @@ Run the following commands:
 
 ```sh
 docker build --tag bolna:latest .
-docker run -d -p 8000:8000 bolna
+docker run -d --name bolna -p 8000:8000 bolna
 ```
 
 ## Step 4: Configure Webhook in Bolna.dev
